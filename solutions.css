@@ -27,3 +27,36 @@
     border-radius: 50%;
 }
 /* / ESERCIZIO 3 */
+
+/*  ESERCIZIO 4 */
+.ex-4-square{
+    transition: filter 1s;
+} 
+
+.ex-4-square:hover {
+    filter: opacity(0);
+}
+/* / ESERCIZIO 4 */
+
+/*  ESERCIZIO 5 */
+.ex-5-square {
+    transition: transform 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+/*  / ESERCIZIO 5 */
+
+/*  ESERCIZIO 6 */
+.ex-6-img {
+    transition: filter;
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/*  / ESERCIZIO 6 */
